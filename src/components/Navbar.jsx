@@ -8,7 +8,7 @@ function Navbar() {
     
   return (
     <>
-        <div className="lg:mt-4 mb-4 lg:mx-24 mt-2 mx-4 flex justify-between items-center bg-[#ffff] space-x-10">
+        <div className="lg:mt-4 mb-4 lg:mx-20 mt-2 mx-4 flex justify-between items-center bg-[#ffff] space-x-8">
         <div className=" flex space-x-0.5 items-center">
             <IoMdMenu className="md:hidden text-5xl" />
             <a href="#" className=" text-4xl font-bold uppercase">
