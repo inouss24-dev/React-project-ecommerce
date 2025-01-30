@@ -8,11 +8,28 @@ import TopSelling from "./components/TopSelling"
 import UserReactions from "./components/UserReactions"
 
 
-function App() {
+// function App() {
 
+//   return (
+//     <>
+//       <div>
+//         <Navbar />
+//         <Hero />
+//         <NewArrivals />
+//         <TopSelling />
+//         <BrowseStyle />
+//         <UserReactions />
+//         <Newsletter />
+//         <Footer />
+//       </div>
+//     </>
+//   )
+// }
+
+function App() {
   return (
     <>
-      <div>
+      <div className="mx-2">
         <Navbar />
         <Hero />
         <NewArrivals />
@@ -23,7 +40,7 @@ function App() {
         <Footer />
       </div>
     </>
-  )
+  );
 }
 
 export default App
