@@ -94,7 +94,7 @@ const Footer = () => {
             <hr className=" text-[gray] w-full"/>
         </div>
         <div className=" flex flex-col items-center lg:flex-row lg:justify-between  mt-2">
-            <p>Shop.co 2000-2023. All Rights Reserved</p>
+            <p className="text-sm lg:text-lg">Shop.co 2000-2023. All Rights Reserved</p>
             <p className=" flex space-x-4 mt-2 lg:mt-0">
                 <img 
                     src={Visa}
