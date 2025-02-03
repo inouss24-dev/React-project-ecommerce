@@ -20,10 +20,19 @@ const Footer = () => {
           <br />
           <span>From women to men.</span>
           <div className="flex justify-center md:justify-start items-center space-x-3 mt-4">
-            <FaFacebookF className="text-2xl" />
-            <FaInstagram className="text-2xl" />
-            <FaXTwitter className="text-2xl" />
-            <FaGithub className="text-2xl" />
+            <a href="https://web.facebook.com/profile.php?id=100041204422074" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF className="text-2xl" />
+            </a>
+            <a href="https://www.instagram.com/itz_inouss/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-2xl" />
+            </a>
+            <a href="https://x.com/_AfroOts" target="_blank" rel="noopener noreferrer">
+              <FaXTwitter className="text-2xl" />
+            </a>
+            <a href="https://github.com/inouss24-dev/" target="_blank">
+              <FaGithub className="text-2xl" />
+            </a>
+            
           </div>
         </div>
 
@@ -95,6 +104,7 @@ const Footer = () => {
         </div>
         <div className=" flex flex-col items-center lg:flex-row lg:justify-between  mt-2">
             <p className="text-sm lg:text-lg">Shop.co 2000-2023. All Rights Reserved</p>
+            <p>Made by InoussaDev</p>
             <p className=" flex space-x-4 mt-2 lg:mt-0">
                 <img 
                     src={Visa}
