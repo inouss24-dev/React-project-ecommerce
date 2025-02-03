@@ -93,19 +93,12 @@ function Navbar() {
         >
           Brands
         </a>
-        <a
-          href="#CONTACT"
-          className="hover:text-[#28a7e9] text-[#ffff] font-bold text-lg"
-          onClick={closeMenu}
-        >
-          CONTACT
-        </a>
         {/* Bouton Close */}
         <span
-          className="bg-[#28a7e9] p-2 rounded-full cursor-pointer"
+          className="bg-[#ffff] p-2 rounded-full flex cursor-pointer"
           onClick={handleMenu}
-        >
-          <IoMdClose className="text-4xl text-white" />
+        > 
+          <IoMdClose className="text-2xl text-black" />
         </span>
       </div>
     </div>
